@@ -1,0 +1,126 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid p-0 m-0">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <a class="navbar-brand h5" href="#">Project name</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>   
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Project name</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <span class="navbar-text text-white">Logged in as Username</span>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div class="container-fluid">
+    <div class="row">
+    
+      <nav class="col-md-2 bg-light sidebar py-3">
+        <h6 class="text-muted">SIDEBAR</h6>
+        <ul class="nav flex-column mb-3">
+          <li class="nav-item"><a class="nav-link active bg-primary text-white" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+        </ul>
+        <h6 class="text-muted">SIDEBAR</h6>
+        <ul class="nav flex-column mb-3">
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+        </ul>
+        <h6 class="text-muted">SIDEBAR</h6>
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+        </ul>
+      </nav>
+
+      
+      <main class="col-md-10 py-3">
+        <div class="p-5 mb-4 bg-light rounded-3">
+          <div class="container-fluid py-3">
+            <h1 class="display-5 fw-bold">Hello, world!</h1>
+            <p class="col-md-8 fs-5">This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content.</p>
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#learnMoreModal">Learn more »</button>
+          </div>
+        </div>
+
+        
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h2>Heading</h2>
+            <p>Dit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.ut formentum massa justro sit amet risus,Etiam porta sern malesuada magna molsis euismod,Donec sed odio dui.</p>
+            <button class="btn btn-white">View details »</button>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h2>Heading</h2>
+            <p>Dit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.ut formentum massa justro sit amet risus,Etiam porta sern malesuada magna molsis euismod,Donec sed odio dui.</p>
+            <button class="btn btn-white">View details »</button>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h2>Heading</h2>
+            <p>Dit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.ut formentum massa justro sit amet risus,Etiam porta sern malesuada magna molsis euismod,Donec sed odio dui</p>
+            <button class="btn btn-white">View details »</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.tortor mauris condimentum nibh.ut formentum massa justro sit amet risus,Etiam porta sern malesuada</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.tortor mauris condimentum nibh.ut formentum massa justro sit amet risus,Etiam porta sern malesuada</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.tortor mauris condimentum nibh.ut formentum massa justro sit amet risus,Etiam porta sern malesuada</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div class="modal fade" id="learnMoreModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">More Information</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>This is a modal popup displayed when you click the "Learn More" button. You can customize its content as needed.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
